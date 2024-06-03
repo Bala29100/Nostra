@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nostraclone</title>
+    <!--=====Font awesome cdn=====-->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <!--=====Bonus=====-->
+    <div class="bonus">
+        <h3 class="bonus_h3">
+            Sign up and <span class="bonus_h3-span">GET 20% OFF</span> for your
+            first order
+        </h3>
+        <h1 class="bonus_close" onclick="hideBonus()">
+            <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#e8eaed">
+                <path
+                    d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+            </svg>
+        </h1>
+    </div>
+    <!--=====Bonus end=====-->
+    <!--=====Navbar=====-->
+    <nav>
+        <ul class="sidebar">
+            <li onclick="hideSidebar()">
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26">
+                        <path
+                            d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
+                    </svg></a>
+            </li>
+            <li><a href="./indix.html" class="nav_menu hover">Home</a></li>
+            <li><a href="#" class="nav_menu hover">New Arrival</a></li>
+            <li><a href="#" class="nav_menu hover">Most Wanted</a></li>
+            <li><a href="./collection.html" class="nav_menu hover">Collections</a></li>
+            <li><a href="./contact.html" class="nav_menu hover">Contact Us</a></li>
+        </ul>
+        <ul>
+            <li><a href="#" class="nav_logo">Nostra</a></li>
+            <li class="hideOnMobile">
+                <a href="./indix.html" class="nav_menu hover">Home</a>
+            </li>
+            <li class="hideOnMobile">
+                <a href="#" class="nav_menu hover">New Arrival</a>
+            </li>
+            <li class="hideOnMobile">
+                <a href="#" class="nav_menu hover">Most Wanted</a>
+            </li>
+            <li class="hideOnMobile">
+                <a href="./collection.html" class="nav_menu hover">Collections</a>
+            </li>
+            <li class="hideOnMobile">
+                <a href="./contact.html" class="nav_menu hover">Contact Us</a>
+            </li>
+            <li class="menu-button" onclick="showSidebar()">
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26">
+                        <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+                    </svg></a>
+            </li>
+        </ul>
+    </nav>
+    <!--=====Navbar end=====-->
+
+    <!--=====Hero section=====-->
+    <section class="hero">
+        <img src="./img/slider-one.jpg" alt="hero-banner" class="hero_img" />
+    </section>
+    <!--=====Hero section end=====-->
+
+    <section class="container_brand overallpadding">
+        <div class="brand">
+            <h1>Brands</h1>
+            <div class="brands-list">
+                <div class="brand_list-flex">
+                    <img class="brands-icon" src="./img/Allen_Solly-SIL0FckF_brandlogos.net.svg" alt="">
+
+                </div>
+                <div class="brand_list-flex">
+                    <img class="brands-icon" src="img/levis-logo-svgrepo-com.svg" alt="">
+
+                </div>
+                <div class="brand_list-flex">
+                    <img class="brands-icon" src="img/tommy-hilfiger-3.svg" alt="">
+                </div>
+                <div class="brand_list-flex">
+                    <img class="brands-icon" src="./img/Allen_Solly-SIL0FckF_brandlogos.net.svg" alt="">
+
+                </div>
+                <div class="brand_list-flex">
+                    <img class="brands-icon" src="img/tommy-hilfiger-3.svg" alt="">
+                </div>
+                <div class="brand_list-flex">
+                    <img class="brands-icon" src="img/u-s-polo-assn-seeklogo.svg" alt="">
+
+                </div>
+                <div class="brand_list-flex">
+                    <img class="brands-icon" src="./img/Allen_Solly-SIL0FckF_brandlogos.net.svg" alt="">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container_mark overallpadding">
+        <div class="mark_head headers">
+            <h1>We provide Best<br>
+                Customer Experiences</h1>
+            <h3>|| We ensure that our customer have the best shopping experience</h3>
+        </div>
+        <div class="mark_card">
+            <div class="mark_card-list">
+                <i class="fa-regular fa-circle-check service-icon"></i>
+                <h4>Original Products</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, incidunt?</p>
+            </div>
+            <div class="mark_card-list">
+                <i class="fa-regular fa-face-smile service-icon"></i>
+                <h4>Satisfication Gurantee</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, incidunt?</p>
+            </div>
+            <div class="mark_card-list">
+                <i class="fa-solid fa-broom service-icon"></i>
+                <h4>New Arrival Everyday</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, incidunt?</p>
+            </div>
+            <div class="mark_card-list">
+                <i class="fa-solid fa-truck-fast service-icon"></i>
+                <h4>Fast & Free Shipping</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, incidunt?</p>
+            </div>
+        </div>
+    </section>
+    <!-- New Arrival -->
+    <section class="Arrival overallpadding">
+        <div class="arrival-head headers">
+            <h1>New Arrivals</h1>
+        </div>
+        <div class="arrival_card">
+            <div class="arival-cards">
+                <img src="./img/f1.jpg" alt="">
+                <div class="overlay"></div>
+                <button>Show Now<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="arival-cards">
+                <img src="./img/f2.jpg" alt="">
+                <div class="overlay"></div>
+                <button>Show Now<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="arival-cards">
+                <img src="./img/f3.jpg" alt="">
+                <div class="overlay"></div>
+                <button>Show Now<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="arival-cards">
+                <img src="./img/f4.jpg" alt="">
+                <div class="overlay"></div>
+                <button>Show No<i class="fa-solid fa-arrow-right"></i></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- most-wanted -->
+    <section class="Arrival overallpadding">
+        <div class="most-head headers">
+            <h1>Most Wanted</h1>
+        </div>
+        <div class="most-wanted_cards">
+            <div class="most-card">
+                <img src="./img/f1.jpg" alt="">
+                <p>sale</p>
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="most-card">
+                <img src="./img/f2.jpg" alt="">
+                <p>sale</p>
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="most-card">
+                <img src="./img/f3.jpg" alt="">
+                <p>sale</p>
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="most-card">
+                <img src="./img/f4.jpg" alt="">
+                <p>sale</p>
+                <i class="fa-regular fa-heart"></i>
+            </div>
+        </div>
+    </section>
+    <!-- footer card -->
+
+    <section class="footer_card overallpadding">
+        <div class="color-bg">
+            <div class="footer-img">
+                <img src="./img/offer.jpg" alt="">
+            </div>
+            <div class="content">
+                <h1>Limited Offer</h1>
+                <p>35% OFF on this for the first 30 Customers</p>
+                <button>Shop Now<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer overallpadding">
+        <div class="footer_content">
+            <h1>Join our News Letter</h1>
+            <p>Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+            <div class="footer-flex">
+                <input type="text" name="" id="">
+            </div>
+            <button>Submit<i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </section>
+
+    <!-- footer end -->
+    <section class="lfooter">
+        <div class="lfooter_content">
+            <h1>Nostra</h1>
+            <p>The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those interest</p>
+            <div class="logos">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+            <p>©2023 Nostra.com</p>
+        </div>
+    </section>
+
+    <!-- script -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
